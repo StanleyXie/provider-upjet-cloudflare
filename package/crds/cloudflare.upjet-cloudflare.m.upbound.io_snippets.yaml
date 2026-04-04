@@ -12,10 +12,10 @@ spec:
     - crossplane
     - managed
     - upjet-cloudflare
-    kind: Snippets
-    listKind: SnippetsList
+    kind: Snippet
+    listKind: SnippetList
     plural: snippets
-    singular: snippets
+    singular: snippet
   scope: Namespaced
   versions:
   - additionalPrinterColumns:
